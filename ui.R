@@ -37,7 +37,7 @@ fluidPage(
       inputId = "angle",
       label = "Angle",
       min = 0,
-      max = 90,
+      max = 45,
       step = 0.1,
       value = plant_rules[[names(plant_rules)[1]]]$angle
       
@@ -47,7 +47,7 @@ fluidPage(
       inputId = "depth",
       label = "Depth",
       min = 1,
-      max = 10,
+      max = 7,
       step = 1,
       value = plant_rules[[names(plant_rules)[1]]]$depth
     )
