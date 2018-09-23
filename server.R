@@ -11,7 +11,7 @@ function(input, output) {
   })
   
   output$main_plot <- renderPlot({
-    ggplot() +
+    ggplot(height = 400, width = 600) +
       geom_segment(
         aes(
           x = x1,

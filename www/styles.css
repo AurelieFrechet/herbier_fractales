@@ -1,0 +1,13 @@
+ @import url("//fonts.googleapis.com/css?family=Dancing+Script");
+ 
+ .draggable {
+      background-color: #fff;
+      background-image:linear-gradient(#eee .1em, transparent .1em);
+      background-size: 100% 1.2em;
+      border-width:5px;
+      border-style:double;
+      border-color:#08335d;
+      border-radius:10px;
+      padding : 20px;
+      opacity : 0.9;
+      }
