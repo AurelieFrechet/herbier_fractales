@@ -24,7 +24,7 @@ function(input, output) {
         data = na.omit(draw_plant())
       ) +
       coord_fixed(ratio = 1) +
-      theme_void()
+      theme_herbarium()
     
   })
   

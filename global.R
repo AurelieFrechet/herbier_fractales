@@ -2,7 +2,7 @@ library(gsubfn)
 library(stringr)
 library(dplyr)
 library(ggplot2)
-source("optimize_l_system.R")
+library(bslib)
 
 plant_rules = list(
   "Plant 1" =
